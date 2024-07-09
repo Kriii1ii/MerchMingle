@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Feedback - Merch Mingle</title>
+    <link rel="stylesheet" href="cost.css"/>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="MM">
+        </a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="merch.html">Merch</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="cost.html">Feedback</a></li>
+        </ul>
+
+        <div class="header-icon">
+            <i class='bx bx-search-alt-2' id="search-icon"></i>
+            <i class='bx bx-cart-add' ></i>
+
+            <div class="search-box">
+                <input type="search" name="" id="" placeholder="Search Here">
+            </div>
+        </div>
+    </header>
+
+    <section class="feedback" id="feedback">
+        <div class="feedback-text">
+            <h1>Customer Feedback</h1>
+            <p>We value your feedback and strive to improve our services. Please share your thoughts with us!</p>
+            <form action="#" method="post" id="feedback-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="5" required></textarea>
+                
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="footer">
+        <p>Copyright @ Merch Mingle</p>
+    </div>
+
+    <script src="cost.js"></script>
+</body>
+</html>
