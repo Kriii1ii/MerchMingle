@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>MERCH MINGLE</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="MM">
+        </a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="merch.html">Merch</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="cost.html">Feedback</a></li>
+        </ul>
+        <div class="header-icon">
+            <i class='bx bx-search-alt-2' id="search-icon"></i>
+            <i class='bx bx-cart-add'></i>
+            <div class="search-box">
+                <input type="search" name="" id="" placeholder="Search Here">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="contact-details">
+            <p>Phone: <a href="tel:+1234567890">+977 9814534562</a></p>
+            <p>Email: <a href="mailto:contact@merchstore.com">merchmingle657@gmail.com</a></p>
+            <p>Facebook: <a href="https://www.facebook.com/merchminglestore" target="_blank">facebook.com/merchminglestore</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/merchminglestore" target="_blank">instagram.com/merchminglestore</a></p>
+        </div>
+        <div class="contact-form">
+            <h2>Stay in Touch</h2>
+            <form action="submit_contact_info.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+               <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="thank-you">
+            <p>Thank you for visiting our website!</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright @ Merch Mingle 2024</p>
+    </div>
+    <script src="contact.js"></script>
+</body>
+</html>
